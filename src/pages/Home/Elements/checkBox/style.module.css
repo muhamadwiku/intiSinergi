@@ -1,0 +1,9 @@
+.root {
+  background-color: rebeccapurple   ;
+}
+
+.root > div {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}

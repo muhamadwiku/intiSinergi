@@ -1,0 +1,21 @@
+.root > table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+tr:hover {
+  background-color:rebeccapurple;
+}
+
+td {
+  border-bottom: 1rem solid #E5E5E5;
+  text-align: start;
+  background: #FFFFFF;
+  padding: 1rem 0.5rem;
+}
+
+.table_header {
+  text-align: start;
+  padding: 1rem 0.5rem;
+}
+

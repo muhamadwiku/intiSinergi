@@ -1,0 +1,18 @@
+.root {
+  align-items: center;
+  background-color: #E5E5E5;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.root > section {
+  width: 70rem;
+}
+
+.root > section > div {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+}

@@ -1,0 +1,10 @@
+/* .root {
+  background-color: red   ;
+} */
+
+.card {
+  background: #FFFFFF;
+  border-radius: 1rem;
+  height: 20rem;
+  width: 34rem;
+}
