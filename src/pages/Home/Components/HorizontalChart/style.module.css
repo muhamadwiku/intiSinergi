@@ -1,0 +1,55 @@
+/* .root {
+  background-color: green;
+} */
+
+.bar {
+  background-color: red;
+  border-radius: .5rem;
+  height: 1rem;
+  position: absolute;
+  width: 20%;
+}
+
+.bar_container {
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+.bar_shadow {
+  background-color: #FFE5D3;
+  border-radius: .5rem;
+  height: 1rem;
+  width: 100%;
+}
+
+.bar_x {
+  align-items: center;
+  display: flex;
+  margin-left: 3rem;
+}
+
+.bar_x > p {
+  margin: 0.5rem 1rem 0.5rem 1rem;
+}
+
+.bar_x > p:first-child {
+  margin: 0.5rem 1rem 0.5rem 0rem;
+}
+
+.bar_x > p:last-child {
+  margin: 0.5rem 0rem 0.5rem 1rem;
+}
+
+.bar_y {
+  width: 3rem;
+}
+
+.card {
+  background: #FFFFFF;
+  border-radius: 1rem;
+  padding: 1rem 1.5rem;
+  width: 31rem;
+}

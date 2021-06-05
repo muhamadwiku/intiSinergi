@@ -1,0 +1,28 @@
+.root > table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+tr {
+  border-bottom: 1rem solid #E5E5E5;
+}
+
+td {
+  text-align: start;
+  background: #FFFFFF;
+  padding: 1rem 0.5rem;
+}
+
+td:first-child {
+  border-radius: 1rem 0rem 0rem 1rem;
+}
+
+td:last-child {
+  border-radius: 0rem 1rem 1rem 0rem;
+}
+
+.table_header {
+  text-align: start;
+  padding: 1rem 0.5rem;
+}
+

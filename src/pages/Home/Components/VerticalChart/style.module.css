@@ -1,0 +1,57 @@
+/* .root {
+  background-color: red   ;
+} */
+
+.card {
+  background: #FFFFFF;
+  border-radius: 1rem;
+  padding: 1rem 1.5rem;
+  width: 31rem;
+}
+
+.active {
+  background-color: #4339F2;
+  border-radius: .5rem;
+  width: 1rem;
+}
+
+.disabled {
+  background-color: #DAD7FE;
+  border-radius: .5rem;
+  width: 1rem;
+}
+
+.bar_container {
+  align-items: flex-end;
+  display: flex;
+  justify-content: space-around;
+  height: 13rem;
+}
+
+.bar_info {
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.bar_info > div {
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.blob_active {
+  background-color: #4339F2;
+  border-radius: 1rem;
+  height: 1rem;
+  margin: 1rem 1rem;
+  width: 1rem;
+}
+
+.blob_disabled {
+  background-color: #DAD7FE;
+  border-radius: 1rem;
+  margin: 1rem 1rem;
+  height: 1rem;
+  width: 1rem;
+}

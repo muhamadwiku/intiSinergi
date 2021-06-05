@@ -1,0 +1,49 @@
+.close {
+  background: none;
+  border: none;
+  cursor: pointer;
+  width: 2rem;
+}
+
+.close:hover {
+  border: .01rem solid #ffff;
+  border-radius: .2rem;
+}
+
+.inherit {
+  background: #655CFB;
+  border: none;
+  border-radius: .2rem;
+  cursor: pointer;
+  color: #ffff;
+  padding: 0rem 1rem;
+}
+
+.inherit:hover {
+  background: #7873d5;
+  border: none;
+  border-radius: .2rem;
+  cursor: pointer;
+  color: #ffff;
+  padding: 0rem 1rem;
+}
+
+.warning {
+  background: #EB5757;
+  border: none;
+  border-radius: .2rem;
+  cursor: pointer;
+  color: #ffff;
+  padding: 0rem 1rem;
+  width: 10rem;
+}
+
+.warning:hover {
+  background: #c65555;
+  border: none;
+  border-radius: .2rem;
+  cursor: pointer;
+  color: #ffff;
+  padding: 0rem 1rem;
+  width: 10rem;
+}
