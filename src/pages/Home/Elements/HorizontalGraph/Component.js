@@ -4,10 +4,11 @@ import styles from './style.module.css';
 
 export default function HorizontalGraph(props) {
   const { data, footer } = props;
+  const item = data.reverse();
   return (
     <>
       <article>
-        {data.map((i, idx) => {
+        {item.map((i, idx) => {
           let validation = () => {
             switch (i.percentage) {
               case 100:

@@ -5,3 +5,21 @@
 .header_name {
   text-align: start;
 }
+
+.container {
+  align-self: center;
+  display: flex;
+  justify-content: center;
+}
+
+.container > button {
+  margin: 0rem .5rem;
+}
+
+.container > div {
+  color: #ffff;
+}
+
+.with_img {
+  margin-right: .5rem;
+}

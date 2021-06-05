@@ -1,0 +1,14 @@
+.snack_root {
+  position: fixed;
+  bottom: 4rem;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 70rem;
+}
+
+.container {
+  background-color: #4339F2;
+  border-radius: 1rem;
+  padding: 1rem;
+}
