@@ -51,6 +51,8 @@
 .th {
   width: 100%;
   padding: 1rem;
+  color: #7f7f7f;
+  font-weight: 400;
 }
 
 .th:first-child {
