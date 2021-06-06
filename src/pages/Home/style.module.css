@@ -19,3 +19,13 @@
   margin-bottom: 1.5rem;
 }
 
+
+@media screen and (max-width: 1098px) {
+   .root > section > div {
+     display: flex;
+     flex-direction: column;
+   }
+   .root > section > div > section {
+    margin-bottom: 1rem;
+  }
+}
